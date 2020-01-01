@@ -108,7 +108,8 @@ header {
 	text-align:left;
 }
 .navbar-brand img {
-	width:10%;
+	width:35%;
+	opacity:0.8;
 }
 .navbar-light .navbar-toggler {
     border-color:transparent;
