@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	{% include page_head.html %}
+	  <body>
+	{% include page_header.html %}
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="blog-home">
+						<ul>
+						  {% for post in site.posts %}
+						    <li>
+						      <a href="..{{post.url}}">{{ post.title }}</a>
+							  <br>
+							  {{ post.cover }}
+						      {{ post.excerpt }}
+						    </li>
+						  {% endfor %}
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	{% include page_footer.html %}
+	{% include page_scripts.html %}
+	  </body>
+</html>

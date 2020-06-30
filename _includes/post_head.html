@@ -1,0 +1,37 @@
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="shortcut icon" href="images/bw-background.jpg" />
+	<meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+	  <meta property="og:site_name" content="{{ site.title }}">
+	  {% if page.title %}
+	  <meta property="og:title" content="{{ page.title }}">
+	  <meta property="og:type" content="article">
+	  <meta property="og:description" content="{{ page.excerpt | strip_html }}"/>
+	  {% else %}
+	  <meta property="og:title" content="{{ site.title }}">
+	  <meta property="og:type" content="website">
+	  <meta property="og:description" content="{{ site.description }}">
+	  {% endif %}
+	  {% if page.date %}
+	  <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
+	  <meta property="article:author" content="{{ site.url }}/about/">
+	  {% endif %}
+	  <meta property="og:url" content="{{ site.url }}{{ page.url }}{{ post.cover }}" />
+	  {% if page.tags %}
+	  <meta itemprop="keywords" content="{{ page.tags | join: ',' }}" />
+	  {% for tag in page.tags %}
+	  <meta property="article:tag" content="{{ tag }}">
+	  {% endfor %}
+	  {% endif %}
+	  {% if author %}
+	  <meta property="article:author" content="{{ author.name }}" />
+	  {% endif %}
+	<title>Blog | {{ page.title }}</title>
+	<link rel="shortcut icon" href="../../../../images/bw-background.jpg" />
+	<link href="../../../../css/bootstrap.min.css" rel="stylesheet">
+	<link href="../../../../css/component.css" rel="stylesheet">
+	<link href="../../../../css/font-awesome.min.css" rel="stylesheet">
+	<link href="../../../../css/style.css" rel="stylesheet" type="text/css" media="all">
+</head>

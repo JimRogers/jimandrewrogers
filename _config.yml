@@ -1,0 +1,17 @@
+title: Jim Andrew Rogers | Singer Songwriter
+email: info@jimandrewrogers.com
+
+description: "Official website for songwriter Jim Andrew Rogers. Rogers captures themes of faith and redemption through folk-tinged acoustic music."
+baseurl: "" 
+url: ""
+twitter_username: jimandrewrogers
+github_username:  JimRogers
+
+# Build settings
+markdown: kramdown
+theme: minima
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
