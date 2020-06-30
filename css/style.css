@@ -71,7 +71,10 @@ li {
 	letter-spacing:3px;
 	font-size:1em;
 }
-
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
 /*---
 Header
 ---*/
@@ -143,10 +146,14 @@ Top Section
 	width:190px;
 	margin:0 auto;
 }
-.home-top {
+#home {
 	height:750px;
 	text-align:center;
 	padding-top:0px;
+	background-image:url('../images/ah-background.JPG');
+	background-position:center;
+	background-size:cover;
+	background-repeat:no-repeat
 }
 
 .parallax-window, .parallax-window-2 {
@@ -474,7 +481,7 @@ header {
 	padding:10px;
 }
 .home-top {
-    height: 350px;
+    height: 600px;
 }
 .navbar-brand {
     font-size: 0.795em !important;
@@ -494,7 +501,9 @@ header {
     height: 550px;
 }
 .tf-btn {
-	font-size:12px;
+	font-size:8px;
+	width:130px;
+	padding:5px;
 }
 .blog-home {
 	width:100%;
@@ -511,5 +520,8 @@ header {
 @media (max-width:230px) {
 	.home-about h3 {
 		text-align:center;
+	}
+	.home-top {
+	    height: 600px;
 	}
 }
