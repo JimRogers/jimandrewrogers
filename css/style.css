@@ -272,8 +272,20 @@ Homepage Blog Section
 	margin-bottom:20px;
 }
 
-
-
+/*---
+SOng Share Pages
+----*/
+.song-share {
+	padding-bottom:100px;
+}
+.song-share img {
+	width:70%;
+}
+.ah {
+	background-image:url('../images/ah-blur-background.JPG');
+	background-size:cover;
+	background-position:center;
+}
 /*---
 Blog home
 ---*/
@@ -318,7 +330,7 @@ Blog home
 .blog-home {
 	width:70%;
 	margin:0 auto;
-	padding-top:100px;
+	padding-top:200px;
 	text-align:center;
 }
 .blog-home p {
