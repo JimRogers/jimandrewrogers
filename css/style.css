@@ -146,6 +146,9 @@ Top Section
 	width:190px;
 	margin:0 auto;
 }
+.tf-btn .fa {
+	padding:5px;
+}
 #home {
 	height:750px;
 	text-align:center;
@@ -273,7 +276,7 @@ Homepage Blog Section
 }
 
 /*---
-SOng Share Pages
+Song Share Pages
 ----*/
 .song-share {
 	padding-bottom:100px;
