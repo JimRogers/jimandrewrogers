@@ -523,6 +523,9 @@ header {
 	width:130px;
 	padding:5px;
 }
+.tf-btn a {
+	font-size:15px;
+}
 .blog-home {
 	width:100%;
 }
