@@ -502,6 +502,10 @@ header {
     padding:5px; 
     padding-right:5px !important;
 }
+.top-feature img {
+	width:90%;
+	padding-bottom:10px;
+}
 .home-about h3, .home-bottom h3 {
     font-size: 1.4em;
 }
@@ -510,6 +514,9 @@ header {
 }
 .home-about {
     height: 550px;
+}
+.home-about p {
+	width:85%;
 }
 .tf-btn {
 	font-size:8px;
@@ -526,6 +533,9 @@ header {
 .navbar-light .navbar-toggler {
 	border-color:transparent;
 	border:none;
+}
+.contact .form {
+	width:90%;
 }
 }
 @media (max-width:230px) {
