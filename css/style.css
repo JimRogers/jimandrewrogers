@@ -513,10 +513,10 @@ header {
     padding-top: 70px;
 }
 .home-about {
-    height: 550px;
+    height: 100%;
 }
 .home-about p {
-	width:85%;
+	width:95%;
 }
 .tf-btn {
 	font-size:8px;
