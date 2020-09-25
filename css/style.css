@@ -289,6 +289,11 @@ Song Share Pages
 	background-size:cover;
 	background-position:center;
 }
+.rs {
+	background-image:url('../images/ras-background-blur.png');
+	background-size:cover;
+	background-position:center;
+}
 /*---
 Blog home
 ---*/
