@@ -91,7 +91,7 @@ header {
 }
 .navbar-nav a {
 	color: #616060 !important;
-    font-family: "voga";
+    font-family: "Comorant";
     letter-spacing: 2px;
     font-weight: 400;
     padding: 25px;
@@ -186,10 +186,11 @@ Top Section
 }
 .home-about p {
 	color: #fff !important;
-	font-size:0.8em;
-	width:60%;
+	font-size: 1.2em;
+	width: 60%;
 	margin: 0 auto;
-	font-family:"Comorant";
+	font-family: "Comorant";
+	text-transform: none;
 }
 .home-songs {
 	padding-top:50px;
