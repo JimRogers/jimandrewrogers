@@ -80,7 +80,7 @@ Header
 ---*/
 header {
 	text-align:right;
-	background: rgba(249, 249, 249, 0.8);
+	background:#b7a886;
 	width:100%;
 	z-index:999;
 	margin: 0 auto;
