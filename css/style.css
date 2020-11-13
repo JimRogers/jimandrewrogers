@@ -158,12 +158,12 @@ Top Section
 	background-size:cover;
 	background-repeat:no-repeat
 }
-#home h1, #home h2 {
+#home h1, #home h3 {
 	color:#fff;
 }
 #home img {
 	width:40%;
-	padding-top:100px;
+	padding-top:150px;
 }
 
 .parallax-window, .parallax-window-2 {
