@@ -153,11 +153,12 @@ Top Section
 	height:750px;
 	text-align:center;
 	padding-top:0px;
-	background-image:url('../images/ras-background.JPG');
+	background-image:url('../images/hlas-background.jpg');
 	background-position:center;
 	background-size:cover;
 	background-repeat:no-repeat
 }
+
 
 .parallax-window, .parallax-window-2 {
     min-height: 100%;
