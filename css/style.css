@@ -163,7 +163,7 @@ Top Section
 }
 #home img {
 	width:40%;
-	padding-top:150px;
+	padding-top:170px;
 }
 
 .parallax-window, .parallax-window-2 {
@@ -506,6 +506,9 @@ header {
 }
 .home-top {
     height: 600px;
+}
+#home img {
+	width:80%;
 }
 .navbar-brand {
     font-size: 0.795em !important;
