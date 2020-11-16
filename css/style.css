@@ -161,6 +161,9 @@ Top Section
 #home h1, #home h3 {
 	color:#fff;
 }
+#home h3 {
+	margin-bottom:10px;
+}
 #home img {
 	width:40%;
 	padding-top:170px;
