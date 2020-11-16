@@ -165,6 +165,16 @@ Top Section
 	width:40%;
 	padding-top:170px;
 }
+#home a {
+	background:#fff;
+	padding:12px;
+	color:#222;
+	font-weight:300;
+	font-family:"Comorant";
+	width:190px;
+	margin:0 auto;
+	text-align:center;
+}
 
 .parallax-window, .parallax-window-2 {
     min-height: 100%;
