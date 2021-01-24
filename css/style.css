@@ -55,12 +55,12 @@ a {
   	color: #bc9e6b;
 }
 h1, h2, h3, h4, h5, h6 {
-	font-family: "voga";
+	font-family: 'Gilda Display', serif;
 }
 p {
 	color:#3a3a3a;
 	letter-spacing:3px;
-	font-family:"Comorant";
+	font-family: 'Gilda Display', serif;
 	text-transform:uppercase;
 	letter-spacing:3px;
 	font-size:0.9em;
@@ -142,7 +142,7 @@ Top Section
 	padding:12px;
 	color:#222;
 	font-weight:300;
-	font-family:"Comorant";
+	font-family: 'Gilda Display', serif;
 	width:190px;
 	margin:0 auto;
 }
@@ -173,7 +173,7 @@ Top Section
 	padding:12px;
 	color:#222;
 	font-weight:300;
-	font-family:"Comorant";
+	font-family: 'Gilda Display', serif;
 	width:190px;
 	margin:0 auto;
 	text-align:center;
@@ -185,7 +185,7 @@ Top Section
     background: transparent;
 }
 .home-about {
-	background:#141414;
+	background:#252525;
 	text-align:center;
 	padding-top:200px;
 	padding-bottom:200px;
@@ -253,8 +253,8 @@ margin: 0 auto;}
 	font-family: 'Gilda Display', serif;
 }
 .form #mce-MMERGE3 {height:300px;}
-.form input[type="submit"] {border:2px solid #fff !important ;color:#fff !important;background:transparent !important;margin-top:10px;margin-bottom:40px; width:140px;}
-.form label {display:block;color: #fff;font-family:"Comorant"; text-transform:uppercase;
+.form input[type="submit"] {border:2px solid #fff !important; padding:12px; color:#fff !important;background:transparent !important;margin-top:10px;margin-bottom:40px; width:140px;}
+.form label {display:none;color: #fff;font-family:"Comorant"; text-transform:uppercase;
 padding: 10px;}
 .form {background:transparent !important; text-align:center; width:50%; margin:0 auto;}
 .form #mc_embed_signup {
@@ -388,7 +388,7 @@ Blog home
 	letter-spacing: 8px;
 	color: #777;
 	text-transform: uppercase;
-	font-family: "voga";
+	font-family: 'Gilda Display', serif;
 }
 .blog-home h3 {
 	font-weight:900;
