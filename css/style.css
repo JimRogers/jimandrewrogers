@@ -91,7 +91,7 @@ header {
 }
 .navbar-nav a {
 	color: #333 !important;
-    font-family: 'Fjalla One';
+    font-family: 'Gilda Display', serif;
     letter-spacing: 2px;
     font-weight: 200;
     padding: 25px;
@@ -247,8 +247,11 @@ Top Section
 /*---
 Homepage Contact form
 ---*/
-.form input{padding:10px;border:2px solid #fff;font-family:"Comorant"; text-transform:uppercase; color:#fff; font-size:1em;width: 50%;
+.form input{padding:10px;border:2px solid #fff;font-family:"Comorant"; height:60px; text-transform:uppercase; color:#fff; font-size:1em;width: 50%;
 margin: 0 auto;}
+.form input::placeholder {
+	font-family: 'Gilda Display', serif;
+}
 .form #mce-MMERGE3 {height:300px;}
 .form input[type="submit"] {border:2px solid #fff !important ;color:#fff !important;background:transparent !important;margin-top:10px;margin-bottom:40px; width:140px;}
 .form label {display:block;color: #fff;font-family:"Comorant"; text-transform:uppercase;
