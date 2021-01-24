@@ -254,7 +254,7 @@ margin: 0 auto;}
 }
 .form #mce-MMERGE3 {height:300px;}
 .form input[type="submit"] {border:2px solid #fff !important; padding:12px; color:#fff !important;background:transparent !important;margin-top:10px;margin-bottom:40px; width:140px;}
-.form label {display:none;color: #fff;font-family:"Comorant"; text-transform:uppercase;
+.form label {display:none !important;color: #fff;font-family:"Comorant"; text-transform:uppercase;
 padding: 10px;}
 .form {background:transparent !important; text-align:center; width:50%; margin:0 auto;}
 .form #mc_embed_signup {
@@ -425,7 +425,7 @@ Footer
 	padding-bottom:15px;
 	position:relative;
 	width:100%;
-	background:#141414;
+	background:#252525;
 }
 .page-footer {
 	text-align:center;
