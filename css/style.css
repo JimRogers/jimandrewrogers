@@ -308,6 +308,7 @@ Song Share Pages
 }
 .song-share img {
 	width:50%;
+	padding-bottom: 20px;
 }
 .ah {
 	background-image:url('../images/ah-blur-background.jpg');
