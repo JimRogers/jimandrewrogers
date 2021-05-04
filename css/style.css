@@ -96,7 +96,7 @@ header {
     font-weight: 200;
     padding: 25px;
     padding-right: 25px !important;
-	font-size:1.2em;
+	font-size:1em;
 }
 .navbar-brand  {
     margin-top: 0px;
@@ -316,6 +316,11 @@ Song Share Pages
 }
 .rs {
 	background-image:url('../images/ras-background-blur.png');
+	background-size:cover;
+	background-position:center;
+}
+.cm {
+	background-image:url('../images/carryme-background.jpg');
 	background-size:cover;
 	background-position:center;
 }
