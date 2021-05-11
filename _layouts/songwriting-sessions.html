@@ -2,30 +2,33 @@
 <html>
 	{% include page_head.html %}
 	<body>
-		<div class="cm">
+		<div class="ss">
 			{% include page_header.html %}
+			<div class="songwriting-overlay"></div>
 				<div class="container">
 					<div class="row">
-						<div class="col-md-12">
-							<div class="song-share">
-								<div class="top-feature">
-									<img src="../../../../images/carryme.jpg" alt="Carry Me">
-									<div class="tf-btn">
-										<a class="download" href="">SPOTIFY<i class="fa fa-spotify"></i></a>
-									</div><br>
-									<div class="tf-btn">
-										<a class="download" href="">ITUNES<i class="fa fa-music"></i></a>
-									</div><br>
-									<div class="tf-btn">
-										<a class="download" href="">AMAZON<i class="fa fa-amazon"></i></a>
-									</div><br>
-									<div class="tf-btn">
-										<a class="download" href="">APPLE<i class="fa fa-apple"></i></a>
-									</div><br>
-									<div class="tf-btn">
-										<a class="download" href="">YOUTUBE<i class="fa fa-youtube"></i></a>
-									</div>
-								</div>
+						<div class="col-md-6">
+							<div class="songwriting-form">
+								<div class="contact-text">
+									<form action="php/contact.php" id ="myform" method="post" enctype="plain">
+									  <div class="form-group">
+									    <input type="name" class="form-control" id="exampleInputName1" placeholder="Name">
+									  </div>
+									  <div class="form-group">
+									    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+									  </div>
+									  <div class="form-group">
+									    <input type="message" class="form-control" id="exampleInputMessage1" placeholder="Comments">
+									  </div>
+									  <button type="submit" class="btn btn-default">Submit</button>
+									</form>
+								</div><!--end about-->
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="songwriting-text">
+								<h3>Songwriting Sessions</h3>
+								<p></p>
 							</div>
 						</div>
 					</div>
