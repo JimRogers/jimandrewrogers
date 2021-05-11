@@ -333,6 +333,10 @@ Songwriting Sessions Page
 	background-size:cover;
 	background-position:center;
 }
+.ss .container {
+	padding-top:150px;
+	padding-bottom:50px;
+}
 .songwriting-form .contact-text .btn-default {
 	background:#fff;
 	border:3px solid #fff;
@@ -365,6 +369,9 @@ Songwriting Sessions Page
 	width:100%;
 	height:100%;
 	opacity:0.9;
+}
+.songwriting-text h1 {
+	color:#fff;
 }
 /*---
 Blog home
