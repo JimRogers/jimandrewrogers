@@ -337,7 +337,7 @@ Songwriting Sessions Page
 	padding-top:250px;
 	padding-bottom:150px;
 }
-.songwriting-form .contact-text .btn-default {
+.songwriting-form .contact-text .btn-default, .songwriting-form .contact-text #mc-embedded-subscribe {
 	background:#fff;
 	border:3px solid #fff;
 	color:#6a9296;
