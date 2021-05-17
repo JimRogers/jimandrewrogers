@@ -363,6 +363,9 @@ Songwriting Sessions Page
 }
 .songwriting-form #mc_embed_signup .button {
 	height:60px !important;
+	border:none !important;
+	background:#fff !important;
+	color:#6a9296 !important;
 }
 .songwriting-overlay {
 	position:absolute;
