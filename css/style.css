@@ -337,7 +337,7 @@ Songwriting Sessions Page
 	padding-top:250px;
 	padding-bottom:150px;
 }
-.songwriting-form .contact-text .btn-default, .songwriting-form .contact-text #mc-embedded-subscribe {
+.songwriting-form .contact-text .btn-default {
 	background:#fff !important;
 	border:3px solid #fff;
 	color:#6a9296 !important;
@@ -359,10 +359,10 @@ Songwriting Sessions Page
 	border-radius:0px;
 	padding:12px;
 	font-family: 'Gilda Display', serif;
+	color:#fff !important;
 }
-.songwriting-form input::placeholder {
-	color:#fff;
-	font-family: 'Gilda Display', serif;
+.songwriting-form #mc_embed_signup .button {
+	height:60px !important;
 }
 .songwriting-overlay {
 	position:absolute;
