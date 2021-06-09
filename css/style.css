@@ -255,10 +255,15 @@ About page
 	padding-bottom:200px;
 }
 .about-img-left img {
-	width:70%;
+	width:80%;
 }
 .about-img-right img {
 	width:30%;
+	filter: brightness(5);
+	margin-bottom:10px;
+}
+.about-img-right p {
+	color:#fff;
 }
 /*---
 Homepage Contact form
