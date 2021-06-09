@@ -244,6 +244,16 @@ Top Section
 	margin-bottom:100px;
 }
 
+
+/*---
+About page
+---*/
+.about-top {
+	background:#252525;
+	text-align:center;
+	padding-top:200px;
+	padding-bottom:200px;
+}
 /*---
 Homepage Contact form
 ---*/
