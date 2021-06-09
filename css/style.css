@@ -258,12 +258,13 @@ About page
 	width:80%;
 }
 .about-img-right img {
-	width:30%;
+	width:25%;
 	filter: brightness(5);
 	margin-bottom:10px;
 }
 .about-img-right p {
 	color:#fff;
+	padding-top:15px;
 }
 /*---
 Homepage Contact form
