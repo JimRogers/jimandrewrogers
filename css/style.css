@@ -254,6 +254,12 @@ About page
 	padding-top:200px;
 	padding-bottom:200px;
 }
+.about-img-logo img {
+	width:15%;
+	filter: brightness(5);
+	margin-bottom:10px;
+	margin-top:10px;
+}
 .about-img-left img {
 	width:80%;
 }
