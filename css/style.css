@@ -255,10 +255,10 @@ About page
 	padding-bottom:200px;
 }
 .about-img-logo img {
-	width:15%;
+	width:10%;
 	filter: brightness(5);
-	margin-bottom:10px;
-	margin-top:10px;
+	margin-bottom:20px;
+	margin-top:20px;
 }
 .about-img-left img {
 	width:80%;
@@ -268,9 +268,14 @@ About page
 	filter: brightness(5);
 	margin-bottom:10px;
 }
-.about-img-right p {
+.about-img-logo p {
 	color:#fff;
 	padding-top:15px;
+}
+.about-videos {
+	padding-top:50px;
+	padding-bottom:50px;
+	background:#252525;
 }
 /*---
 Homepage Contact form
