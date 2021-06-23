@@ -277,6 +277,10 @@ About page
 	padding-bottom:40px;
 	background:#252525;
 }
+.about-top .row, .about-mid .row, .about-videos .row {
+	width: 1100px;
+	margin: 0 auto;
+}
 /*---
 Homepage Contact form
 ---*/
@@ -582,14 +586,25 @@ Footer
     bottom: 10px;
 	display:none;
 }
-
+/*---
+Media Queries
+---*/
 @media (min-width:1100px) {
 .home-top .row {
 	width:1100px;
 	margin:0 auto;
 }
+.about-top .row, .about-mid .row, .about-videos .row {
+	width: 1000px;
+	margin: 0 auto;
 }
-
+}
+@media (min-width:1000px) {
+.about-top .row, .about-mid .row, .about-videos .row {
+	width: 100%;
+	margin: 0 auto;
+}
+}
 @media (max-width:768px) {
 .top-feature {
 	padding-top:100px;
