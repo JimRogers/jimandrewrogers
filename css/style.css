@@ -589,17 +589,19 @@ Footer
 /*---
 Media Queries
 ---*/
-@media (min-width:1100px) {
-.home-top .row {
-	width:1100px;
-	margin:0 auto;
-}
+@media (max-width:1100px) {
 .about-top .row, .about-mid .row, .about-videos .row {
 	width: 1000px;
 	margin: 0 auto;
 }
 }
-@media (min-width:1000px) {
+@media (min-width:1100px) {
+.home-top .row {
+	width:1100px;
+	margin:0 auto;
+}
+}
+@media (max-width:1000px) {
 .about-top .row, .about-mid .row, .about-videos .row {
 	width: 100%;
 	margin: 0 auto;
