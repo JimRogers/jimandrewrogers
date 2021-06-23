@@ -260,6 +260,10 @@ About page
 	margin-bottom:20px;
 	margin-top:20px;
 }
+.about-img-top img {
+	width:80%;
+	margin-top:80px;
+}
 .about-img-left img {
 	width:80%;
 }
@@ -661,6 +665,9 @@ header {
 }
 .home-about p {
 	width:95%;
+}
+.about-img-top img {
+	margin-top:10px;
 }
 .tf-btn {
 	font-size:8px;
