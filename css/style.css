@@ -286,6 +286,25 @@ About page
 	margin: 0 auto;
 }
 /*---
+Songs Page
+---*/
+.songs-section {
+	padding-top:100px;
+	padding-bottom:150px;
+	background:#141414;
+}
+.songs-section h3 {
+	color: #fff !important;
+	font-size:2.4em;
+	line-height: 48px;
+	letter-spacing: 10px;
+	font-weight:200;
+	margin-bottom:100px;
+}
+.songs-section iframe {
+	padding:5px;
+}
+/*---
 Homepage Contact form
 ---*/
 .form input{padding:10px;border:2px solid #fff;font-family:"Comorant"; height:60px; text-transform:uppercase; color:#fff; font-size:1em;width: 50%;
