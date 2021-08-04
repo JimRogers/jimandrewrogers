@@ -323,7 +323,10 @@ padding: 10px;}
 .form #mc_embed_signup h2 {
 	display:none;
 }
-
+.contact h3 {
+	color:#fff;
+	padding-top:50px;
+}
 /*---
 Homepage Blog Section
 ---*/
