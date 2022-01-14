@@ -146,10 +146,10 @@ Top Section
 	width:190px;
 	margin:0 auto;
 }
-.latest .tf-btn {
+#latest .tf-btn {
 	max-width:50%;
 }
-.latest .tf-btn a {
+#latest .tf-btn a {
 	font-weight:600;
 	letter-spacing:4px;
 	color:#77b3b3;
