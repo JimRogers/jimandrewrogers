@@ -146,15 +146,6 @@ Top Section
 	width:190px;
 	margin:0 auto;
 }
-.latest-btn {
-	max-width:50% !important;
-}
-.latest-btn a {
-	font-weight:600 !important;
-	letter-spacing:4px !important;
-	color:#77b3b3 !important;
-	font-family: sans-serif !important;
-}
 .tf-btn .fa {
 	padding:5px;
 }
@@ -253,7 +244,22 @@ Top Section
 	margin-bottom:100px;
 }
 
-
+/*---
+Latest page
+---*/
+.top-video {
+	margin:0 auto;
+	width:50%;
+}
+.latest-btn {
+	width:50% !important;
+}
+.latest-btn a {
+	font-weight:600 !important;
+	letter-spacing:4px !important;
+	color:#77b3b3 !important;
+	font-family: sans-serif !important;
+}
 /*---
 About page
 ---*/
@@ -707,6 +713,16 @@ header {
 }
 .tf-btn a {
 	font-size:15px;
+}
+/*---
+Latest page
+---*/
+.top-video {
+	margin:0 auto;
+	width:100%;
+}
+.latest-btn {
+	width:90% !important;
 }
 .blog-home {
 	width:100%;
