@@ -161,6 +161,11 @@ Top Section
 }
 #home h1, #home h3 {
 	color:#fff;
+	font-family: 'Gilda Display', serif;
+}
+#home h1 {
+	font-size: 22px;
+	padding-top: 10px;
 }
 #home h3 {
 	padding-bottom:20px;
