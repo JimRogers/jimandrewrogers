@@ -154,10 +154,7 @@ Top Section
 	height:770px;
 	text-align:center;
 	padding-top:0px;
-	background-image:url('../images/rlth-background.jpeg');
-	background-position:center;
-	background-size:cover;
-	background-repeat:no-repeat
+	background-color:#777;
 }
 #home h1, #home h3 {
 	color:#fff;
